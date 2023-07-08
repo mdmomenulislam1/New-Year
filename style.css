@@ -32,7 +32,7 @@ header {
     font-weight: 700;
 }
 
-.banner-description {
+.description {
     color: #444343;
     font-family: Work Sans;
     font-size: 16px;
@@ -49,4 +49,99 @@ header {
     font-size: 20px;
     font-weight: 600;
     border: 0;
+}
+
+.failure-container {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 200px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px 0px 50px;
+}
+
+.failure-img {
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    width: 527.929px;
+    height: 527.929px;
+
+}
+
+.failure-text {
+    margin-left: 100px;
+
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 150px;
+    margin-right: 200px;
+}
+
+.failure-des {
+    padding-right: 200px;
+
+}
+
+.list {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.plan-title {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 200px;
+
+}
+
+.plan-title{
+    margin: 0 0 20px 100px;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+
+.ads-container {
+    background-image: url('images/gradient2.png'), url('images/watch.png');
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 100px;
+
+}
+
+.ads-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 40px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+
+.ads-btn {
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    margin: 0 0 20px 50px;
 }
